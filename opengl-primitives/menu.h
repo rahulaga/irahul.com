@@ -1,0 +1,43 @@
+
+#define MENU_TETR		TETRAHEDRON
+#define MENU_CUBE		CUBE
+#define MENU_CUBOID		CUBOID
+#define MENU_PYRAMID	PYRAMID
+#define MENU_SPHERE		SPHERE
+#define MENU_CONE		CONE
+#define	MENU_TORUS		TORUS
+#define MENU_TEA		TEAPOT
+
+
+
+
+#define MENU_CREDITS	15
+#define MENU_HELP		16
+#define MENU_QUIT		17
+
+#define MENU_TRANSLATE	18
+#define MENU_DELETE		19	
+#define MENU_SHADING	20	
+#define MENU_WIRE		21
+#define MENU_ZOOM_IN	22
+#define MENU_ZOOM_OUT	23
+#define MENU_ANIMATE	24
+#define MENU_ROTATE		25
+#define MENU_ROTATE_OFF	26
+
+#define MENU_SMALLEST	27
+#define MENU_SMALL		28
+#define MENU_MEDIUM		29
+#define	MENU_LARGE		30
+#define	MENU_LARGEST	31
+
+#define MENU_SAVE1		32
+#define MENU_SAVE2		33
+#define MENU_SAVE3		34
+#define MENU_LOAD1		35
+#define MENU_LOAD2		36
+#define MENU_LOAD3		37
+
+#define MENU_ANIM_OFF	38
+#define MENU_COPY		39
+#define MENU_PASTE		40

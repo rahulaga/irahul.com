@@ -1,0 +1,108 @@
+SIZE 400 400
+RAYDEPTH 2
+AMBLIGHT .8 .2 .2
+SHADOWS
+
+LIGHT POINT -1 7 4  1 1 1
+
+CAMERA -2.5 6 1.5
+       1 -1 .1
+       37.5
+       0 0 1
+
+DEFINETEXTURE box1
+{
+  dif .8 .6 .2
+  spec .8 .8 .8
+  amb .1 .1 .1
+  shine 50
+  reflect .4
+}
+
+DEFINETEXTURE box2
+{
+  dif .9 .8 .2
+  spec .8 .8 .8
+  amb .1 .1 .1
+  shine 50
+  reflect .4
+}
+
+box -1 0 0 0 -1 2
+move 2.5 1 -1.5
+texture box1
+
+box -1 0 0 0 -1 1.5
+move -1.0 1 -1
+texture box2
+
+DEFINETEXTURE sphere1
+{
+  dif 1 .1 .8
+  spec .8 .8 .8
+  amb .1 .1 .1
+  shine 20
+  transp .6
+  reflect .3  
+}
+
+DEFINETEXTURE sphere3
+{
+  dif .1 .5 .1
+  spec .8 .8 .8
+  amb .1 .1 .1
+  shine 30
+}
+
+sphere .3
+move .5 1.2 -.25
+texture sphere1
+
+sphere .5
+move .7 -.9 -.35
+texture sphere3
+
+DEFINETEXTURE floor
+{
+  dif .5 .3 .2
+  reflect .3
+}
+
+plane 0 0 -1 0 0 1
+texture floor
+
+DEFINETEXTURE wall2
+{
+  dif .2 .3 .8
+  shine 10
+}
+
+plane 3 0 0 -1 0 0
+texture wall2
+
+plane -3 0 0 1 0 0
+texture wall2
+
+DEFINETEXTURE wall1
+{
+  dif 0 .1 .8
+  spec .8 .8 .8
+  amb .1 .1 .1
+  shine 10
+}
+
+plane 0 -4 0 0 1 0
+texture wall1
+
+DEFINETEXTURE elipse1
+{
+  dif .8 .8 .1
+  spec .8 .8 .8
+  amb .1 .1 .1
+  transp .6
+  shine 20
+}
+
+elipse .6 1 .4
+move -.2 2.5 -.35
+texture elipse1

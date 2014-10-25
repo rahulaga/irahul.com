@@ -1,0 +1,65 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openXMPP", "openXMPP.csproj", "{C8A87F75-66FB-4A9D-8330-9BB33686EADA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{7A444CC3-5F1D-4F4F-A94B-145829641910}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "PocketXMPP", "PocketXMPP\PocketXMPP.csdproj", "{8F3B0C31-9444-4A64-AF76-34C9BD7EBD35}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndanteXMPP", "AndanteXMPP\AndanteXMPP.csproj", "{4087C0B0-EA1E-4BAA-9226-DB3A187C5294}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentalisTcpClient", "MentalisTcpClient\MentalisTcpClient.csproj", "{360FAE33-E208-48E5-AA22-90ABAB986B2D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTcpClient", "MonoTcpClient\MonoTcpClient.csproj", "{027A3F84-4366-4D36-8535-EEF4D0E18591}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C8A87F75-66FB-4A9D-8330-9BB33686EADA}.Debug.ActiveCfg = Debug|.NET
+		{C8A87F75-66FB-4A9D-8330-9BB33686EADA}.Debug.Build.0 = Debug|.NET
+		{C8A87F75-66FB-4A9D-8330-9BB33686EADA}.Release.ActiveCfg = Release|.NET
+		{C8A87F75-66FB-4A9D-8330-9BB33686EADA}.Release.Build.0 = Release|.NET
+		{7A444CC3-5F1D-4F4F-A94B-145829641910}.Debug.ActiveCfg = Debug|.NET
+		{7A444CC3-5F1D-4F4F-A94B-145829641910}.Debug.Build.0 = Debug|.NET
+		{7A444CC3-5F1D-4F4F-A94B-145829641910}.Release.ActiveCfg = Release|.NET
+		{7A444CC3-5F1D-4F4F-A94B-145829641910}.Release.Build.0 = Release|.NET
+		{8F3B0C31-9444-4A64-AF76-34C9BD7EBD35}.Debug.ActiveCfg = Debug|Pocket PC
+		{8F3B0C31-9444-4A64-AF76-34C9BD7EBD35}.Debug.Build.0 = Debug|Pocket PC
+		{8F3B0C31-9444-4A64-AF76-34C9BD7EBD35}.Release.ActiveCfg = Release|Pocket PC
+		{8F3B0C31-9444-4A64-AF76-34C9BD7EBD35}.Release.Build.0 = Release|Pocket PC
+		{8F3B0C31-9444-4A64-AF76-34C9BD7EBD35}.Release.Deploy.0 = Release|Pocket PC
+		{4087C0B0-EA1E-4BAA-9226-DB3A187C5294}.Debug.ActiveCfg = Debug|.NET
+		{4087C0B0-EA1E-4BAA-9226-DB3A187C5294}.Debug.Build.0 = Debug|.NET
+		{4087C0B0-EA1E-4BAA-9226-DB3A187C5294}.Release.ActiveCfg = Release|.NET
+		{4087C0B0-EA1E-4BAA-9226-DB3A187C5294}.Release.Build.0 = Release|.NET
+		{360FAE33-E208-48E5-AA22-90ABAB986B2D}.Debug.ActiveCfg = Debug|.NET
+		{360FAE33-E208-48E5-AA22-90ABAB986B2D}.Debug.Build.0 = Debug|.NET
+		{360FAE33-E208-48E5-AA22-90ABAB986B2D}.Release.ActiveCfg = Release|.NET
+		{360FAE33-E208-48E5-AA22-90ABAB986B2D}.Release.Build.0 = Release|.NET
+		{027A3F84-4366-4D36-8535-EEF4D0E18591}.Debug.ActiveCfg = Debug|.NET
+		{027A3F84-4366-4D36-8535-EEF4D0E18591}.Debug.Build.0 = Debug|.NET
+		{027A3F84-4366-4D36-8535-EEF4D0E18591}.Release.ActiveCfg = Release|.NET
+		{027A3F84-4366-4D36-8535-EEF4D0E18591}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		openXMPP.vsd = openXMPP.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

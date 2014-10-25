@@ -1,0 +1,1 @@
+C# implementation for XMPP (RFC 3920, 3921) - openXMPP
